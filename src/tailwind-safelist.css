@@ -1,0 +1,41 @@
+/* This file is to ensure common Tailwind classes are included in the build */
+
+/* Background colors */
+.bg-white {}
+.bg-black {}
+.dark\:bg-white {}
+.dark\:bg-black {}
+.bg-black\/5 {}
+.bg-black\/10 {}
+.bg-black\/20 {}
+.bg-black\/30 {}
+.dark\:bg-white\/5 {}
+.dark\:bg-white\/10 {}
+.dark\:bg-white\/20 {}
+.dark\:bg-white\/30 {}
+
+/* Text colors */
+.text-white {}
+.text-black {}
+.dark\:text-white {}
+.dark\:text-black {}
+.text-white\/70 {}
+.text-black\/70 {}
+.dark\:text-white\/70 {}
+.dark\:text-black\/70 {}
+
+/* Border colors */
+.border-black\/10 {}
+.border-white\/10 {}
+.dark\:border-black\/10 {}
+.dark\:border-white\/10 {}
+.border-black\/20 {}
+.border-white\/20 {}
+.dark\:border-black\/20 {}
+.dark\:border-white\/20 {}
+
+/* Background colors for error states */
+.bg-red-100 {}
+.bg-red-900\/20 {}
+.text-red-800 {}
+.dark\:text-red-300 {} 

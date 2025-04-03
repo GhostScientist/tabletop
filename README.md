@@ -52,3 +52,75 @@ export default tseslint.config({
   },
 })
 ```
+
+# Tabletop
+
+A lightweight, local-first, joyfully minimalist database viewer and SQL playground for the browser.
+
+## 🧠 Philosophy
+
+- **Local-first, privacy-honoring**: No backend, no accounts, no tracking
+- **Performance and beauty**: Instant feedback, clean visuals, buttery fast UX
+- **Serious power, playful vibes**: It should feel like a synth deck for your schema, not a filing cabinet
+
+## 🛠️ Features
+
+- Drag-and-drop SQLite file loading
+- Table list and data exploration
+- SQL query editor with results display
+- Black and white minimalist UI design
+- Fully responsive layout
+- Dark mode support
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/tabletop.git
+cd tabletop
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+### Usage
+
+1. Launch the app in your browser
+2. Drag and drop a `.sqlite` file into the designated area
+3. Browse tables in the sidebar
+4. View table data in the grid
+5. Run custom SQL queries in the editor
+
+## 🔧 Tech Stack
+
+- React + TypeScript
+- AG Grid Community for data tables
+- TailwindCSS for styling
+- sql.js for in-browser SQLite engine
+- Vite for bundling
+
+## 🚧 Future Plans
+
+- Visual ERD schema browser
+- Tabbed SQL editors with saved query history
+- Data visualization (charts from query results)
+- Workspace export/import
+- Custom themes
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.

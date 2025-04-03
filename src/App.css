@@ -1,3 +1,27 @@
+/* Import AG Grid styles */
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+/* Dark mode AG Grid overrides */
+.dark .ag-theme-alpine {
+  --ag-background-color: transparent;
+  --ag-header-background-color: #ffffff;
+  --ag-header-foreground-color: #000000;
+  --ag-odd-row-background-color: rgba(255, 255, 255, 0.03);
+  --ag-row-hover-color: rgba(255, 255, 255, 0.1);
+  --ag-selected-row-background-color: rgba(255, 255, 255, 0.2);
+  --ag-border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Extra utility classes */
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
